@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{RXBc:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),c=n("Bl7J"),o=n("vrFN");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(o.a,{title:"Home"}),l.a.createElement("h1",null,"Hi people"),l.a.createElement("p",null,"Welcome to your new Gatsby site."))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-5ce27ba5f637ab6d578c.js.map
