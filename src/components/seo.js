@@ -1,31 +1,9 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
-
-function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  )
-
-  const metaDescription = description || site.siteMetadata.description
+function SEO({ lang, meta, title }) {
+  const metaDescription =
+    "Full Stack Web & Mobile Developer - Student Bachelor of Software Engineering. Curious about technologies and entrepreneurship. I work with technology since 2016 and developed websites and applications for different market sectors, working on national and international projects."
 
   return (
     <Helmet
@@ -33,7 +11,7 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | Personal Website`}
       meta={[
         {
           name: `description`,
@@ -41,7 +19,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: `${title} | Web & Mobile Developer`,
         },
         {
           property: `og:description`,
@@ -52,16 +30,20 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `/images/og-image.jpg`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: "Felipe Leal | @lealluisf",
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `${title} | Web & Mobile Developer`,
         },
         {
           name: `twitter:description`,
