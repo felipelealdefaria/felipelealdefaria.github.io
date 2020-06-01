@@ -17,7 +17,7 @@
     ```shell
     yarn develop
     ```
-    
+
 2.  **Format code**
 
     ```shell
@@ -40,11 +40,10 @@ I worked on national and international projects, as in France & Spain 🇫🇷 �
 
 Technologies:
 
-  - JavaScript (Vue.Js, React, React Native, Node.Js, Next.Js, GraphQL);
-  - TeamWork & Asana & Jira;
-  - HTML5 & CSS3 & Styled-components;
-  - PHP (Laravel);
- 
+- JavaScript (Vue.Js, React, React Native, Node.Js, Next.Js, GraphQL);
+- TeamWork & Asana & Jira;
+- HTML5 & CSS3 & Styled-components;
+- PHP (Laravel);
 
 ### **2018/2019 - Work in [Tog Design](https://tog.design/).**
 
@@ -52,12 +51,11 @@ I worked on national and international projects, as in Portugal 🇵🇹.
 
 Technologies:
 
-  - HTML5 & CSS3 & Sass;
-  - PHP (Laravel);
-  - JavaScript (Vue.Js);
-  - jQuery;
-  - Trello.
-
+- HTML5 & CSS3 & Sass;
+- PHP (Laravel);
+- JavaScript (Vue.Js);
+- jQuery;
+- Trello.
 
 ### **2016/2020 - Academic Projects [Federal Technological University of Paraná (UTFPR)](http://portal.utfpr.edu.br/).**
 
@@ -65,12 +63,12 @@ I worked with academic projects and directly participated in the creation of the
 
 Technologies:
 
-  - HTML5 & CSS3 & Sass;
-  - JavaScript;
-  - jQuery;
-  - Trello.
+- HTML5 & CSS3 & Sass;
+- JavaScript;
+- jQuery;
+- Trello.
 
 ### **Want to get to know me better? Get in touch and let's have a coffee ☕️:**
 
-  - [Linkedin](https://www.linkedin.com/in/lealluisf/).
-  - [Personal Website](https://felipelealdefaria.github.io/).
+- [Linkedin](https://www.linkedin.com/in/lealluisf/).
+- [Personal Website](https://felipelealdefaria.github.io/).

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "felipe-leal",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Personal Website - Full Stack Web & Mobile Developer - Student Bachelor of Software Engineering.",
+  "version": "1.0.0",
+  "author": "Felipe Leal <felipelealdefaria@gmail.com>",
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "antd": "^4.2.3",
