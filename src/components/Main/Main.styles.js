@@ -27,7 +27,7 @@ export const Title = styled.h1`
 export const Text = styled.p`
   margin: 5px;
   padding: 0;
-  top: -205px;
+  top: -186px;
   right: -167px;
   width: fit-content;
   position: relative;
@@ -37,7 +37,7 @@ export const Text = styled.p`
   font-family: "Avenir";
   @media (max-width: 528px) {
     font-size: 14px;
-    top: -139px;
+    top: -131px;
     right: -117px;
     width: fit-content;
     position: relative;
