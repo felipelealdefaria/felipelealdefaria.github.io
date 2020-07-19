@@ -1,4 +1,4 @@
-![Group 65](https://user-images.githubusercontent.com/64376829/85414748-e274dd00-b542-11ea-8b8e-f3471f17dd1a.png)
+![image](https://user-images.githubusercontent.com/64376829/87885068-53e06800-c9e9-11ea-9222-b477a6353f4d.png)
 
 # Hello, my name is Felipe Leal.
 
