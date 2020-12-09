@@ -12,7 +12,7 @@ const IndexPage = () => {
   useEffect(() => {
     setTimeout(() => {
       setRender(true)
-    }, 1500)
+    }, 1000)
   }, [])
 
   return (

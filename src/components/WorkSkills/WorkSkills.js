@@ -6,8 +6,6 @@ import {
   Text,
   Title,
   Underline,
-  // BoxText,
-  // BoxRelative,
   BoxIcon,
   RowIcons,
 } from "./WorkSkills.styles"
@@ -23,16 +21,13 @@ const WorkSkills = () => {
             and skills
           </Title>
           <Underline />
-          {/* <BoxText> */}
           <Text>
-            I work with technology since 2016 and developed websites and
-            applications for different market sectors,{" "}
-            <b>working on national and international projects</b>. Today, my
-            development stack is more focused on JavaScript frameworks,{" "}
-            <b>but I am always open to new challenges</b>.
+            I have worked with technology since 2016 and have developed
+            websites and applications for different market sectors.
+            I have <b>worked on national and international projects</b>.
+            Today, my development stack is more focused on JavaScript
+            frameworks, <b>but I am always open to new challenges</b>.
           </Text>
-          {/* <BoxRelative /> */}
-          {/* </BoxText> */}
         </Col>
         <Col>
           <RowIcons>
@@ -150,7 +145,6 @@ const WorkSkills = () => {
                 title="Docker"
               />
             </BoxIcon>
-            {/* <BoxIcon><img src="/images/icon-aws.svg" alt="Icon AWS" title="AWS" /></BoxIcon> */}
           </RowIcons>
         </Col>
       </Row>
