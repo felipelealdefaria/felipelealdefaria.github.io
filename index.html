@@ -3,115 +3,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Felipe Leal · Senior Software Engineer</title>
-  <meta name="description" content="Felipe Leal turns LLMs into products that handle real customers. Senior Software Engineer in Sydney, leading the engineering behind a production voice AI agent.">
-  <meta property="og:title" content="Felipe Leal · Senior Software Engineer">
-  <meta property="og:description" content="I turn LLMs into products that handle real customers.">
+  <title>Felipe Leal</title>
+  <meta name="description" content="Felipe Leal is a Senior Software Engineer in Sydney who builds production LLM applications.">
+  <meta property="og:title" content="Felipe Leal">
+  <meta property="og:description" content="Senior Software Engineer in Sydney, building production LLM applications.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://felipelealdefaria.github.io/">
   <meta property="og:image" content="https://felipelealdefaria.github.io/images/avatar.png">
-  <meta name="theme-color" content="#0b0b10" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <link rel="icon" href="images/icon-felipe-leal.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="bar">
-    <div class="wrap bar-inner">
-      <a href="#top" class="brand">Felipe Leal</a>
-      <nav>
-        <a href="#work">Work</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="hero wrap">
-      <img class="avatar" src="images/avatar.png" alt="Felipe Leal" width="80" height="80">
-      <p class="eyebrow">Senior Software Engineer · Sydney</p>
-      <h1>I turn LLMs into products that handle <span class="accent">real customers</span>.</h1>
-      <p class="lead">I lead the engineering behind a production voice AI agent at Luxury Escapes, which answers customer calls and resolves them end to end.</p>
-      <div class="actions">
-        <a class="btn primary" href="mailto:felipelealdefaria@gmail.com">Get in touch</a>
-        <a class="btn" href="https://www.linkedin.com/in/felipelealdefaria" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn" href="https://github.com/felipelealdefaria" target="_blank" rel="noopener">GitHub</a>
+  <main class="page">
+    <header class="intro">
+      <img class="avatar" src="images/avatar.png" alt="Felipe Leal" width="72" height="72">
+      <div>
+        <h1>Felipe Leal</h1>
+        <p class="role">Senior Software Engineer, Sydney</p>
       </div>
+    </header>
+
+    <section>
+      <p>I build production LLM applications. Right now that's a voice agent that handles customer support calls end to end: it identifies the caller, finds their booking, makes changes on the call, and passes the call to a person when it should.</p>
+      <p>Most of my work sits around the model rather than inside it. That means designing the tools and APIs an agent uses, testing agent behaviour with simulation-based regression suites, building the data pipelines and dashboards that show how it performs, and integrating it with the systems it acts on. Before that, I spent several years on backend services and large CRM integrations.</p>
     </section>
 
-    <section id="work" class="wrap">
-      <h2 class="label">What I've built</h2>
-      <div class="grid">
-        <article class="card feature">
-          <span class="tag">Voice AI</span>
-          <h3>A production voice agent</h3>
-          <p>It verifies callers, finds their bookings and changes them live on the call, and hands off to a person with full context when it should.</p>
-        </article>
-        <article class="card">
-          <span class="tag">Agent engineering</span>
-          <h3>The engineering around the model</h3>
-          <p>Tool design, guardrails against made-up answers, and A/B tested behaviour, so the model does the right thing and not just the plausible thing.</p>
-        </article>
-        <article class="card">
-          <span class="tag">Quality</span>
-          <h3>Agents tested like software</h3>
-          <p>Simulation suites catch behaviour regressions before customers do, so prompts and models change safely.</p>
-        </article>
-        <article class="card">
-          <span class="tag">Data</span>
-          <h3>Observability for AI</h3>
-          <p>Conversation data flows into the warehouse and onto live dashboards, so the business sees what the agent resolves and why.</p>
-        </article>
-        <article class="card">
-          <span class="tag">Integrations</span>
-          <h3>Integrations under pressure</h3>
-          <p>A two-way CRM sync that moved a whole support operation to a new platform on a hard deadline.</p>
-        </article>
-      </div>
+    <section>
+      <h2>Focus</h2>
+      <dl class="focus">
+        <dt>Agent design</dt>
+        <dd>Tool and API design for LLM agents, guardrails and hand-off behaviour.</dd>
+        <dt>Evaluation</dt>
+        <dd>Simulation-based regression testing, so prompts and models can change safely.</dd>
+        <dt>Data</dt>
+        <dd>Conversation pipelines into a data warehouse, plus reporting on agent performance.</dd>
+        <dt>Integrations</dt>
+        <dd>Two-way syncs between CRMs and internal services, and platform migrations.</dd>
+      </dl>
     </section>
 
-    <section id="experience" class="wrap">
-      <h2 class="label">Experience</h2>
-      <ul class="rows">
-        <li>
-          <div><h3>Luxury Escapes</h3><p>Senior Software Engineer · Voice AI, customer support platforms and product verticals</p></div>
-          <span class="when">2021 – now</span>
-        </li>
-        <li>
-          <div><h3>Codengage</h3><p>Software Engineer · web and mobile products for clients in Brazil and Europe</p></div>
-          <span class="when">2019 – 2021</span>
-        </li>
-        <li>
-          <div><h3>Tog Design</h3><p>Web Developer · websites and web apps for clients in Brazil and Portugal</p></div>
-          <span class="when">2018 – 2019</span>
-        </li>
-        <li>
-          <div><h3>UTFPR</h3><p>Bachelor of Software Engineering</p></div>
-          <span class="when">2016 – 2020</span>
-        </li>
-      </ul>
-
-      <h2 class="label">Stack</h2>
-      <ul class="chips">
-        <li>TypeScript</li><li>Node.js</li><li>React</li><li>Next.js</li>
-        <li>PostgreSQL</li><li>BigQuery</li><li>AWS</li><li>LLM agents</li>
+    <section>
+      <h2>Experience</h2>
+      <ul class="jobs">
+        <li><span>Senior Software Engineer · Travel technology</span><span class="when">2021 – present</span></li>
+        <li><span>Software Engineer · Codengage</span><span class="when">2019 – 2021</span></li>
+        <li><span>Web Developer · Tog Design</span><span class="when">2018 – 2019</span></li>
+        <li><span>B.Eng. Software Engineering · UTFPR</span><span class="when">2016 – 2020</span></li>
       </ul>
     </section>
 
-    <section id="contact" class="wrap contact">
-      <h2>Let's talk.</h2>
-      <p>Building with LLMs, or want to compare notes on agents in production? I'd like to hear from you.</p>
-      <a class="btn primary" href="mailto:felipelealdefaria@gmail.com">felipelealdefaria@gmail.com</a>
+    <section>
+      <h2>Tools</h2>
+      <p>TypeScript, Node.js, React, Next.js, PostgreSQL, BigQuery, AWS.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        <a href="mailto:felipelealdefaria@gmail.com">felipelealdefaria@gmail.com</a><br>
+        <a href="https://www.linkedin.com/in/felipelealdefaria" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="https://github.com/felipelealdefaria" target="_blank" rel="noopener">GitHub</a>
+      </p>
     </section>
   </main>
-
-  <footer class="wrap foot">
-    <span>© Felipe Leal</span>
-    <span>Made in Sydney · 🇧🇷 → 🇦🇺</span>
-  </footer>
 </body>
 </html>
